@@ -7,6 +7,11 @@ public class PenjualanTas {
     Integer harga_tas;
     Integer jumlah_barang;
 
+    public PenjualanTas() {
+        harga_tas=500000;
+        jumlah_barang=7;
+    }
+
     
     void cetakInfo(){
         System.out.println("===========================");
