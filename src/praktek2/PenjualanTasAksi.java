@@ -10,6 +10,7 @@ public class PenjualanTasAksi {
         
         rl.cetakInfo();
         System.out.println("total = "+rl.hitungtotal());
+        rl.cetaktotal();
         }
        
     

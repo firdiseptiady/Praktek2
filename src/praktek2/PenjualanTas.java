@@ -1,6 +1,8 @@
 
 package praktek2;
 
+import static java.time.Clock.system;
+
 public class PenjualanTas {
     Integer harga_tas;
     Integer jumlah_barang;
@@ -18,8 +20,7 @@ public class PenjualanTas {
         return total;
         
     }
-
-    String total() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    void cetaktotal(){
+        System.out.println("totalnya adalah: "+hitungtotal());
     }
 }
