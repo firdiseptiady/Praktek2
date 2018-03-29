@@ -9,8 +9,8 @@ public class PenjualanTasAksi {
         rl.jumlah_barang = 7;
         
         rl.cetakInfo();
-        
-    }
+        System.out.println("total = "+rl.hitungtotal());
+        }
        
     
 }

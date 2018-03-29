@@ -12,4 +12,14 @@ public class PenjualanTas {
         System.out.println("jumlah_barang :"+jumlah_barang);
         System.out.println("===========================");
     }
+    Integer hitungtotal(){
+        Integer total;
+        total=harga_tas*jumlah_barang;
+        return total;
+        
+    }
+
+    String total() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
