@@ -8,8 +8,13 @@ public class PenjualanTas {
     Integer jumlah_barang;
 
     public PenjualanTas() {
-        harga_tas=500000;
+        harga_tas=800000;
         jumlah_barang=7;
+    }
+
+    public PenjualanTas(Integer harga_tas, Integer jumlah_barang) {
+        this.harga_tas = harga_tas;
+        this.jumlah_barang = jumlah_barang;
     }
 
     
