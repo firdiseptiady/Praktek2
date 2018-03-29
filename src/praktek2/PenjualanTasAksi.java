@@ -8,9 +8,9 @@ public class PenjualanTasAksi {
         rl.harga_tas = 500000;
         rl.jumlah_barang = 7;
         
+        rl.cetakInfo();
         
-        
-        
-   }
+    }
+       
     
 }
